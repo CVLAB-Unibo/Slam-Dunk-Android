@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">AndroidSLAM</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_export">Export</string>
+    <string name="action_settings">Settings</string><string name="action_save">Save</string>
+    <string name="action_take_picture">Take Picture</string><string name="action_start_recording">Start Recording</string><string name="action_stop_recording">Stop Recording</string><string name="description_depth">Depth Image</string>
+    <string name="description_rgb">RGB Image</string>
+    <string name="vertex_shader_point_cloud_file_name">shaderProgramPointCloud.vert</string>
+    <string name="fragment_shader_point_cloud_file_name">shaderProgramPointCloud.frag</string>
+    <string name="vertex_shader_texture_file_name">shaderProgramTexture.vert</string>
+    <string name="fragment_shader_texture_file_name">shaderProgramTexture.frag</string>
+    <string name="vertex_shader_bounding_box_file_name">shaderProgramBoundingBox.vert</string>
+    <string name="fragment_shader_bounding_box_file_name">shaderProgramBoundingBox.frag</string>
+    <string name="image_grabber_descriptor_file_name">associatedFilesFR1FLOOR.txt</string>
+    <string name="image_grabber_images_folder_name">fr1floor</string>
+    <string name="flann_file_name">flannHC.yml</string>
+    <string name="detector_file_name">orb.yml</string>
+    <string name="dialog_select_grabber_title">Select the Grabber</string>
+    <string-array name="grabber_list">
+        <item >Image</item>
+        <item>Image Inertial</item><item >Xtion/Kinect</item>
+        <item >Senz3D</item>
+        <item >Structure</item>
+        
+    </string-array>
+    <string name="general_category_pref_key">generalCategory</string>
+    <string name="general_category_pref_title">General</string>
+    <string name="subsample_amount_pref_key">subsampleAmount</string>
+    <string name="subsample_amount_pref_title">Amount of Subsampling</string>
+    <string name="subsample_amount_pref_summary">The amount of subsampling to apply to the projected point clouds. It must be a multiple of 2.</string>
+    <string-array name="subsample_amount_pref_entries">
+        <item>Subsampling disabled</item>
+        <item>Subsampling x2</item>
+        <item>Subsampling x4</item>
+        <item>Subsampling x8</item>
+    </string-array><string name="execute_native_pref_key">executeNative</string>
+    <string name="execute_native_pref_title">Native Execution</string>
+    <string name="execute_native_pref_summary">Enables the execution of the algorithm in C/C++ code instead of Java.</string>
+    <string name="grabber_as_thread_pref_key">grabberAsThread</string>
+    <string name="grabber_as_thread_pref_title">Execute Grabber in a separate Thread</string>
+    <string name="grabber_as_thread_pref_summary">If selected it will execute the Grabber in a separate thread, otherwise the Grabber will be directly called by the Application Manager.</string>
+    <string name="algorithm_category_pref_key">algorithmCategory</string>
+    <string name="algorithm_category_pref_title">Algorithm</string>
+    <string name="rba_rings_pref_key">rbaRings</string>
+    <string name="rba_rings_pref_title">RBA Rings</string>
+    <string name="rba_rings_pref_summary">Number of levels used in the Relative Bundle Adjustment.</string>
+    <string-array name="rba_rings_pref_entries">
+        <item >3 rings</item>
+        <item >5 rings</item>
+    </string-array>
+    <string name="keyframe_overlapping_pref_key">keyframeOverlapping</string>
+    <string name="keyframe_overlapping_pref_title">Keyframe Overlapping</string>
+    <string name="keyframe_overlapping_pref_summary">Amount to be used in the keyframe overlapping check (between 0 and 1).</string>
+    <string-array name="keyframe_overlapping_pref_entries">
+        <item >0.6 (Less frequent keyframe detection)</item>
+        <item >0.7 (Standard keyframe detection)</item>
+        <item >0.8 (More frequent keyframe detection)</item>
+    </string-array>
+    <string name="try_loop_inference_pref_key">tryLoopInference</string>
+    <string name="try_loop_inference_pref_title">Loop Inference</string>
+    <string name="try_loop_inference_pref_summary">Enables or disables the loop detection method and the following optimization.</string>
+    <string name="active_window_length_pref_key">activeWindowLength</string>
+    <string name="active_window_length_pref_title">Active Window Length</string>
+    <string name="active_window_length_pref_summary">Length of the Active Window (in meters).</string>
+    <string-array name="active_window_length_pref_entries">
+        <item >3 meters</item>
+        <item >5 meters</item>
+        <item >7 meters</item>
+    </string-array>
+    <string name="debug_algorithm_pref_key">debugAlgorithm</string>
+    <string name="debug_algorithm_pref_title">Debug Mode</string>
+    <string name="debug_algorithm_pref_summary">Enables or disables algorithm debugging.</string>
+    <string name="export_category_pref_key">exportCategory</string>
+    <string name="export_category_pref_title">Export</string>
+    <string name="octree_resolution_pref_key">octreeResolution</string>
+    <string name="octree_resolution_pref_title">Octree Resolution</string>
+    <string name="octree_resolution_pref_summary">The resolution of the Octree used in the export process, it indicates the maximum allowed side length for the single voxel.</string>
+    <string name="export_file_format_pref_key">exportFileFormat</string>
+    <string name="export_file_format_pref_title">File Format</string>
+    <string name="export_file_format_pref_summary">File format used in the save operation.</string>
+    <string-array name="export_file_format_pref_entries">
+        <item >PLY - ASCII</item>
+        <item >PLY - Binary Little Endian</item>
+        <item >PLY - Binary Big Endian</item>
+    </string-array>
+    <string name="export_file_path_pref_key">exportFilePath</string>
+    <string name="export_file_path_pref_title">File Path</string>
+    <string name="export_file_path_pref_summary">The path in which to save the file, starting from the sdcard directory. It has to include the file name and the extension.</string>
+    <string name="export_file_path_default">pcOctree.ply</string>
+    <string name="all_trajectories_output_path">trajectories/estimatedTrajectoryAll.txt</string>
+    <string name="keyframe_trajectories_output_path">trajectories/estimatedTrajectoryKeyframes.txt</string>
+    <string name="execution_time_output_path">trajectories/time.txt</string>
+    <string name="recording_folder_path">RecordingSLAM</string>
+    
+    
+    
+    
+</resources>

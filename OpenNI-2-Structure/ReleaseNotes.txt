@@ -1,0 +1,28 @@
+OpenNI 2.2.0 Build 33
+November 12 2013
+
+Minimum Requirements:
+---------------------
+- Operating Systems: 
+  - Windows XP with SP2 and above, Windows 7, Windows 8, on x86 (32/64 bit)
+  - Ubuntu 12.04 (32/64/arm) and above
+  - Android 2.3 and above
+  - Mac OSX 10.7 and above
+- Processors: 
+  - Pentium 4, 1.4GHz and above 
+  - AMD Athlon 64/FX 1GHz and above
+  - Arm Cortex A8 and above
+- Memory: at least 64MB available.
+- 250MB free hard disk space.
+- Available USB 2.0 high-speed port.
+- Development Environment: 
+  - Microsoft Visual Studio 2008 and 2010. The compiler can be MSVC compiler or an Intel Compiler 11 and above.
+  - GCC 4.x
+- Some of the sample applications require a graphics card equivalent to: ATI RADEON x1300 or NVIDIA GeForce 7300.
+
+Notes:
+------
+- On Android, only native support (and samples) is currently provided. Please note that as bionic (Android linker) does not
+  support the rpath option, the samples cannot start as is. To solve this, do one of the following:
+  - Copy OpenNI libraries (libOpenNI2.so, libPS1080.so and libOniFile.so) to /system/lib (requires root) - or -
+  - run `export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH` before starting the native executeable

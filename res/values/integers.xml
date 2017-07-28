@@ -1,0 +1,22 @@
+<resources>
+    <item type="integer" format="integer" name="detector_type">5</item>
+    <item type="integer" format="integer" name="extractor_type">3</item>
+    <item type="integer" format="integer" name="subsample_amount_default">2</item>
+    <integer-array name="subsample_amount_pref_entry_values">
+        <item >1</item>
+        <item >2</item>
+        <item >4</item>
+        <item >8</item>
+    </integer-array>
+    <item type="integer" format="integer" name="rba_rings_default">3</item>
+    <integer-array name="rba_rings_pref_entry_values">
+        <item >3</item>
+        <item >5</item>
+    </integer-array>
+    <item type="integer" name="export_file_format_default" format="integer">1</item>
+    <integer-array name="export_file_format_pref_entry_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </integer-array>
+</resources>

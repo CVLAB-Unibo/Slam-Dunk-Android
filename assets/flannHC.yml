@@ -1,0 +1,32 @@
+%YAML:1.0
+indexParams:
+   -
+      name: algorithm
+      type: 23
+      value: 5
+   -
+      name: branching
+      type: 4
+      value: 32
+   -
+      name: leaf_size
+      type: 4
+      value: 100
+   -
+      name: trees
+      type: 4
+      value: 4
+      
+searchParams:
+   -
+      name: checks
+      type: 4
+      value: -1
+   -
+      name: eps
+      type: 5
+      value: 0.0
+   -
+      name: sorted
+      type: 15
+      value: 1

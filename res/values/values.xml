@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="keyframe_overlapping_default" format="float" type="string">0.7</item>
+    <item name="octree_resolution_default" type="string" format="float">0.02</item>
+    <item type="string" name="active_window_length_default" format="float">5.0</item>
+    
+</resources>

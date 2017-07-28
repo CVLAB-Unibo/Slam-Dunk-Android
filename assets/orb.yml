@@ -1,0 +1,10 @@
+%YAML:1.0
+name: "Feature2D.ORB"
+WTA_K: 2
+edgeThreshold: 31
+firstLevel: 0
+nFeatures: 500
+nLevels: 8
+patchSize: 31
+scaleFactor: 1.2
+scoreType: 0

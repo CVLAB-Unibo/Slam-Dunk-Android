@@ -1,0 +1,31 @@
+%YAML:1.0
+indexParams:
+   -
+      name: algorithm
+      type: 23
+      value: 6
+   -
+      name: key_size
+      type: 4
+      value: 20
+   -
+      name: multi_probe_level
+      type: 4
+      value: 2
+   -
+      name: table_number
+      type: 4
+      value: 12
+searchParams:
+   -
+      name: checks
+      type: 4
+      value: -1
+   -
+      name: eps
+      type: 5
+      value: 0.0
+   -
+      name: sorted
+      type: 15
+      value: 1

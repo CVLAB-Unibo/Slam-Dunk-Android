@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item format="boolean" name="execute_native_default" type="bool">true</item>
+    <item format="boolean" name="grabber_as_thread_default" type="bool">false</item>
+    <item name="try_loop_inference_default" type="bool" format="boolean">true</item>
+    <item name="debug_algorithm_default" type="bool" format="boolean">false</item>
+</resources>

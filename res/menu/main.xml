@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_start_stop" android:orderInCategory="98" android:showAsAction="never" android:title="@string/action_start"></item>
+    <item android:id="@+id/action_export" android:orderInCategory="99" android:title="@string/action_export" android:showAsAction="never"></item><item android:id="@+id/action_settings" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_settings" />
+    
+
+</menu>

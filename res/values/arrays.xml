@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="keyframe_overlapping_pref_entry_values">
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+    </array>
+    <array name="active_window_length_pref_entry_values">
+        <item >3.0</item>
+        <item >5.0</item>
+        <item >7.0</item>
+    </array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="entryValues" format="reference" />
+	<attr name="entries" format="reference" />
+    <declare-styleable name="IntegerListPreference">
+		<attr name="entryValues" />
+		<attr name="entries" />
+    </declare-styleable>
+    <declare-styleable name="FloatListPreference">
+		<attr name="entryValues" />
+		<attr name="entries" />
+    </declare-styleable>
+</resources>

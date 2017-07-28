@@ -1,0 +1,15 @@
+USER_LOCAL_PATH:=$(LOCAL_PATH)
+
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libusb
+LOCAL_SRC_FILES := libusb.so
+include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := openni2
+LOCAL_SRC_FILES := libOpenNI2.so
+include $(PREBUILT_SHARED_LIBRARY)
+
+LOCAL_PATH:=$(USER_LOCAL_PATH)

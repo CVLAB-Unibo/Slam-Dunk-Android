@@ -1,0 +1,1832 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2556431596/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2556431596.dir/build.make CMakeFiles/cmTryCompileExec2556431596.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2556431596.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2556431596.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2556431596.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2556431596/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2532057711/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2532057711.dir/build.make CMakeFiles/cmTryCompileExec2532057711.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2532057711.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2532057711.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /openmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2532057711.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2532057711/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3036347314/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3036347314.dir/build.make CMakeFiles/cmTryCompileExec3036347314.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3036347314.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3036347314.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized option '-Qopenmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3036347314.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3036347314/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3584752904/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3584752904.dir/build.make CMakeFiles/cmTryCompileExec3584752904.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3584752904.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3584752904.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3584752904.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3584752904/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec907468865/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec907468865.dir/build.make CMakeFiles/cmTryCompileExec907468865.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec907468865.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec907468865.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec907468865.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec907468865/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4094931922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4094931922.dir/build.make CMakeFiles/cmTryCompileExec4094931922.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4094931922.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec4094931922.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: language openmp not recognized
+arm-linux-androideabi-gcc: error: language openmp not recognized
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4094931922.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec4094931922/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1882052715/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1882052715.dir/build.make CMakeFiles/cmTryCompileExec1882052715.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1882052715.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1882052715.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: +Oopenmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1882052715.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1882052715/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3337826322/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3337826322.dir/build.make CMakeFiles/cmTryCompileExec3337826322.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3337826322.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3337826322.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3337826322.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3337826322/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec54935759/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec54935759.dir/build.make CMakeFiles/cmTryCompileExec54935759.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec54935759.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec54935759.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+cc1: error: unrecognized command line option '-mp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec54935759.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec54935759/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec250653469/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec250653469.dir/build.make CMakeFiles/cmTryCompileExec250653469.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec250653469.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec250653469.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec250653469.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec250653469/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3132336672/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3132336672.dir/build.make CMakeFiles/cmTryCompileExec3132336672.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3132336672.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3132336672.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: /openmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3132336672.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3132336672/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3866101148/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3866101148.dir/build.make CMakeFiles/cmTryCompileExec3866101148.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3866101148.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3866101148.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-Qopenmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3866101148.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3866101148/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3830530027/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3830530027.dir/build.make CMakeFiles/cmTryCompileExec3830530027.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3830530027.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3830530027.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3830530027.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3830530027/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4204486279/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4204486279.dir/build.make CMakeFiles/cmTryCompileExec4204486279.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4204486279.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec4204486279.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4204486279.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec4204486279/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2771046218/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2771046218.dir/build.make CMakeFiles/cmTryCompileExec2771046218.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2771046218.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2771046218.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: language openmp not recognized
+arm-linux-androideabi-g++: error: language openmp not recognized
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2771046218.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2771046218/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3574159111/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3574159111.dir/build.make CMakeFiles/cmTryCompileExec3574159111.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3574159111.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3574159111.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: +Oopenmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3574159111.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3574159111/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1837568293/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1837568293.dir/build.make CMakeFiles/cmTryCompileExec1837568293.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1837568293.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1837568293.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1837568293.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1837568293/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2091889064/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2091889064.dir/build.make CMakeFiles/cmTryCompileExec2091889064.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2091889064.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2091889064.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option '-mp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2091889064.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2091889064/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1881828495/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1881828495.dir/build.make CMakeFiles/cmTryCompileExec1881828495.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1881828495.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1881828495.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1881828495.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1881828495/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2290590577/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2290590577.dir/build.make CMakeFiles/cmTryCompileExec2290590577.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2290590577.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2290590577.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /openmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2290590577.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2290590577/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3008563599/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3008563599.dir/build.make CMakeFiles/cmTryCompileExec3008563599.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3008563599.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3008563599.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized option '-Qopenmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3008563599.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3008563599/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1027226963/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1027226963.dir/build.make CMakeFiles/cmTryCompileExec1027226963.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1027226963.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1027226963.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1027226963.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1027226963/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1263524321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1263524321.dir/build.make CMakeFiles/cmTryCompileExec1263524321.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1263524321.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1263524321.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1263524321.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1263524321/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3717060684/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3717060684.dir/build.make CMakeFiles/cmTryCompileExec3717060684.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3717060684.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3717060684.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: language openmp not recognized
+arm-linux-androideabi-gcc: error: language openmp not recognized
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3717060684.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3717060684/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1075810490/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1075810490.dir/build.make CMakeFiles/cmTryCompileExec1075810490.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1075810490.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1075810490.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: +Oopenmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1075810490.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1075810490/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3613504549/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3613504549.dir/build.make CMakeFiles/cmTryCompileExec3613504549.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3613504549.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3613504549.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3613504549.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3613504549/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3300074255/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3300074255.dir/build.make CMakeFiles/cmTryCompileExec3300074255.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3300074255.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3300074255.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+cc1: error: unrecognized command line option '-mp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3300074255.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3300074255/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4172801308/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4172801308.dir/build.make CMakeFiles/cmTryCompileExec4172801308.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4172801308.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec4172801308.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4172801308.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec4172801308/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3259187251/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3259187251.dir/build.make CMakeFiles/cmTryCompileExec3259187251.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3259187251.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3259187251.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: /openmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3259187251.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3259187251/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3844075560/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3844075560.dir/build.make CMakeFiles/cmTryCompileExec3844075560.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3844075560.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3844075560.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-Qopenmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3844075560.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3844075560/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3735768834/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3735768834.dir/build.make CMakeFiles/cmTryCompileExec3735768834.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3735768834.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3735768834.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3735768834.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3735768834/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3943376968/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3943376968.dir/build.make CMakeFiles/cmTryCompileExec3943376968.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3943376968.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3943376968.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3943376968.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3943376968/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec386982751/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec386982751.dir/build.make CMakeFiles/cmTryCompileExec386982751.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec386982751.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec386982751.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: language openmp not recognized
+arm-linux-androideabi-g++: error: language openmp not recognized
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec386982751.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec386982751/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1208667971/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1208667971.dir/build.make CMakeFiles/cmTryCompileExec1208667971.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1208667971.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1208667971.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: +Oopenmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1208667971.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1208667971/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3572076916/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3572076916.dir/build.make CMakeFiles/cmTryCompileExec3572076916.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3572076916.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3572076916.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3572076916.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3572076916/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1557978881/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1557978881.dir/build.make CMakeFiles/cmTryCompileExec1557978881.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1557978881.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1557978881.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option '-mp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1557978881.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1557978881/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1133169297/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1133169297.dir/build.make CMakeFiles/cmTryCompileExec1133169297.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1133169297.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1133169297.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1133169297.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1133169297/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4170720373/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4170720373.dir/build.make CMakeFiles/cmTryCompileExec4170720373.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4170720373.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec4170720373.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /openmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4170720373.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec4170720373/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1493797328/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1493797328.dir/build.make CMakeFiles/cmTryCompileExec1493797328.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1493797328.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1493797328.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized option '-Qopenmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1493797328.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1493797328/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec450448568/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec450448568.dir/build.make CMakeFiles/cmTryCompileExec450448568.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec450448568.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec450448568.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec450448568.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec450448568/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1631764412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1631764412.dir/build.make CMakeFiles/cmTryCompileExec1631764412.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1631764412.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1631764412.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1631764412.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1631764412/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec261069632/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec261069632.dir/build.make CMakeFiles/cmTryCompileExec261069632.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec261069632.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec261069632.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: language openmp not recognized
+arm-linux-androideabi-gcc: error: language openmp not recognized
+make[1]: *** [CMakeFiles/cmTryCompileExec261069632.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec261069632/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec763135597/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec763135597.dir/build.make CMakeFiles/cmTryCompileExec763135597.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec763135597.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec763135597.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: +Oopenmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec763135597.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec763135597/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec708080671/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec708080671.dir/build.make CMakeFiles/cmTryCompileExec708080671.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec708080671.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec708080671.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec708080671.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec708080671/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4061816855/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4061816855.dir/build.make CMakeFiles/cmTryCompileExec4061816855.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4061816855.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec4061816855.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+cc1: error: unrecognized command line option '-mp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4061816855.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec4061816855/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3819726009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3819726009.dir/build.make CMakeFiles/cmTryCompileExec3819726009.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3819726009.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3819726009.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3819726009.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3819726009/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1655346425/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1655346425.dir/build.make CMakeFiles/cmTryCompileExec1655346425.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1655346425.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1655346425.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: /openmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1655346425.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1655346425/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec682119041/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec682119041.dir/build.make CMakeFiles/cmTryCompileExec682119041.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec682119041.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec682119041.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-Qopenmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec682119041.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec682119041/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec298682137/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec298682137.dir/build.make CMakeFiles/cmTryCompileExec298682137.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec298682137.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec298682137.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec298682137.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec298682137/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1183045755/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1183045755.dir/build.make CMakeFiles/cmTryCompileExec1183045755.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1183045755.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1183045755.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1183045755.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1183045755/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1688834820/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1688834820.dir/build.make CMakeFiles/cmTryCompileExec1688834820.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1688834820.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1688834820.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: language openmp not recognized
+arm-linux-androideabi-g++: error: language openmp not recognized
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1688834820.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1688834820/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec507153643/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec507153643.dir/build.make CMakeFiles/cmTryCompileExec507153643.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec507153643.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec507153643.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: +Oopenmp: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec507153643.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec507153643/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3808282845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3808282845.dir/build.make CMakeFiles/cmTryCompileExec3808282845.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3808282845.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3808282845.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3808282845.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3808282845/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec600171801/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec600171801.dir/build.make CMakeFiles/cmTryCompileExec600171801.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec600171801.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec600171801.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option '-mp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec600171801.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec600171801/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec383089746/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec383089746.dir/build.make CMakeFiles/cmTryCompileExec383089746.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec383089746.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec383089746.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec383089746.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec383089746/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3186739975/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3186739975.dir/build.make CMakeFiles/cmTryCompileExec3186739975.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3186739975.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3186739975.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /openmp: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec3186739975.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3186739975/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1541280528/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1541280528.dir/build.make CMakeFiles/cmTryCompileExec1541280528.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1541280528.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1541280528.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+arm-linux-androideabi-gcc: error: unrecognized option '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1541280528.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1541280528/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1643244638/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1643244638.dir/build.make CMakeFiles/cmTryCompileExec1643244638.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1643244638.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1643244638.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1643244638.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1643244638/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2016763357/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2016763357.dir/build.make CMakeFiles/cmTryCompileExec2016763357.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2016763357.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2016763357.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2016763357.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2016763357/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3184236563/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3184236563.dir/build.make CMakeFiles/cmTryCompileExec3184236563.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3184236563.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3184236563.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: language openmp not recognized
+arm-linux-androideabi-gcc: error: language openmp not recognized
+make[1]: *** [CMakeFiles/cmTryCompileExec3184236563.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3184236563/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec969378613/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec969378613.dir/build.make CMakeFiles/cmTryCompileExec969378613.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec969378613.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec969378613.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: +Oopenmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec969378613.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec969378613/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3865323654/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3865323654.dir/build.make CMakeFiles/cmTryCompileExec3865323654.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3865323654.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3865323654.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3865323654.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3865323654/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1276587713/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1276587713.dir/build.make CMakeFiles/cmTryCompileExec1276587713.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1276587713.dir/src.c.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1276587713.dir/src.c.o   -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.c
+cc1: error: unrecognized command line option '-mp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1276587713.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec1276587713/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2511111832/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2511111832.dir/build.make CMakeFiles/cmTryCompileExec2511111832.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2511111832.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -fopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2511111832.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2511111832.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2511111832/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1391071447/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1391071447.dir/build.make CMakeFiles/cmTryCompileExec1391071447.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1391071447.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED /openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1391071447.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: /openmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1391071447.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1391071447/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1704204604/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1704204604.dir/build.make CMakeFiles/cmTryCompileExec1704204604.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1704204604.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -Qopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1704204604.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-Qopenmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1704204604.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1704204604/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec6976793/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec6976793.dir/build.make CMakeFiles/cmTryCompileExec6976793.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec6976793.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -openmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec6976793.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec6976793.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec6976793/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3192497013/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3192497013.dir/build.make CMakeFiles/cmTryCompileExec3192497013.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3192497013.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3192497013.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx:2:17: fatal error: omp.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3192497013.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3192497013/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2595122868/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2595122868.dir/build.make CMakeFiles/cmTryCompileExec2595122868.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2595122868.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -xopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2595122868.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: language openmp not recognized
+arm-linux-androideabi-g++: error: language openmp not recognized
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2595122868.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2595122868/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1507675685/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1507675685.dir/build.make CMakeFiles/cmTryCompileExec1507675685.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1507675685.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED +Oopenmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec1507675685.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: +Oopenmp: No such file or directory
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1507675685.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1507675685/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2602246728/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2602246728.dir/build.make CMakeFiles/cmTryCompileExec2602246728.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2602246728.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -qsmp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec2602246728.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized option '-qsmp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2602246728.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2602246728/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3768886293/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3768886293.dir/build.make CMakeFiles/cmTryCompileExec3768886293.dir/build
+make[1]: Entering directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3768886293.dir/src.cxx.o
+/home/falthiel/Downloads/android-toolchain/bin/arm-linux-androideabi-g++   -DANDROID -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5__ --sysroot=/home/falthiel/Downloads/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -frtti -fexceptions  -DOpenMP_FLAG_DETECTED -mp -isystem /home/falthiel/Downloads/android-toolchain/sysroot/usr/include    -o CMakeFiles/cmTryCompileExec3768886293.dir/src.cxx.o -c /home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option '-mp'
+make[1]: Leaving directory `/home/falthiel/Downloads/g2o/androidbuild/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3768886293.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3768886293/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

@@ -1,0 +1,3347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>g2o-Release@androidbuild</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j2</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/falthiel/Downloads/g2o/androidbuild</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/falthiel/Downloads/g2o/androidbuild</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/csparse</name>
+			<type>2</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_add.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_add.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_amd.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_amd.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_chol.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_chol.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_cholsol.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_cholsol.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_compress.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_compress.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_counts.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_counts.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_cumsum.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_cumsum.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_dfs.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_dfs.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_dmperm.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_dmperm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_droptol.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_droptol.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_dropzeros.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_dropzeros.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_dupl.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_dupl.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_entry.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_entry.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_ereach.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_ereach.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_etree.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_etree.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_fkeep.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_fkeep.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_gaxpy.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_gaxpy.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_happly.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_happly.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_house.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_house.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_ipvec.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_ipvec.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_leaf.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_leaf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_load.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_load.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_lsolve.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_lsolve.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_ltsolve.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_ltsolve.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_lu.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_lu.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_lusol.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_lusol.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_malloc.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_malloc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_maxtrans.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_maxtrans.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_multiply.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_multiply.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_norm.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_norm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_permute.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_permute.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_pinv.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_pinv.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_post.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_post.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_print.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_print.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_pvec.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_pvec.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_qr.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_qr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_qrsol.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_qrsol.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_randperm.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_randperm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_reach.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_reach.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_scatter.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_scatter.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_scc.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_scc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_schol.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_schol.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_spsolve.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_spsolve.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_sqr.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_sqr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_symperm.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_symperm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_tdfs.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_tdfs.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_transpose.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_transpose.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_updown.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_updown.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_usolve.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_usolve.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_util.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_util.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Source Files/cs_utsolve.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_utsolve.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Header Files/cs_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/EXTERNAL/csparse/cs_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/timeutil.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/timeutil.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/command_args.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/command_args.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/sparse_helper.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/sparse_helper.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/os_specific.c</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/os_specific.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/filesys_tools.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/filesys_tools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/string_tools.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/string_tools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/property.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/property.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/sampler.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/sampler.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Source Files/tictoc.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/tictoc.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/filesys_tools.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/filesys_tools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/string_tools.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/string_tools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/color_macros.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/color_macros.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/macros.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/macros.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/misc.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/misc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/timeutil.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/timeutil.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/command_args.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/command_args.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/sparse_helper.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/sparse_helper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/os_specific.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/os_specific.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/property.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/property.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/sampler.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/sampler.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/unscented.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/unscented.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/tictoc.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/tictoc.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Header Files/g2o_stuff_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/stuff/g2o_stuff_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] stuff/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/hyper_graph_action.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/hyper_graph_action.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/hyper_graph.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/hyper_graph.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/marginal_covariance_cholesky.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/marginal_covariance_cholesky.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/matrix_structure.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/matrix_structure.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/batch_stats.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/batch_stats.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/parameter.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/parameter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/cache.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/cache.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/optimizable_graph.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimizable_graph.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/solver.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/solver.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/optimization_algorithm_factory.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_factory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/estimate_propagator.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/estimate_propagator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/factory.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/factory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/sparse_optimizer.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/sparse_optimizer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/hyper_dijkstra.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/hyper_dijkstra.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/parameter_container.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/parameter_container.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/optimization_algorithm.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/optimization_algorithm_with_hessian.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_with_hessian.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/optimization_algorithm_gauss_newton.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_gauss_newton.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/optimization_algorithm_levenberg.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_levenberg.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/optimization_algorithm_dogleg.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_dogleg.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/sparse_optimizer_terminate_action.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/sparse_optimizer_terminate_action.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/jacobian_workspace.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/jacobian_workspace.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/robust_kernel.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/robust_kernel.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/robust_kernel_impl.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/robust_kernel_impl.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Source Files/robust_kernel_factory.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/robust_kernel_factory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_edge.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_edge.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_binary_edge.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_binary_edge.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_binary_edge.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_binary_edge.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/hyper_graph_action.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/hyper_graph_action.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_multi_edge.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_multi_edge.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_multi_edge.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_multi_edge.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/hyper_graph.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/hyper_graph.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_unary_edge.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_unary_edge.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/linear_solver.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/linear_solver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_unary_edge.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_unary_edge.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_vertex.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_vertex.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/marginal_covariance_cholesky.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/marginal_covariance_cholesky.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/base_vertex.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/base_vertex.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/matrix_structure.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/matrix_structure.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/batch_stats.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/batch_stats.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/openmp_mutex.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/openmp_mutex.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/block_solver.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/block_solver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/block_solver.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/block_solver.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/parameter.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/parameter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/cache.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/cache.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimizable_graph.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimizable_graph.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/solver.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/solver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/creators.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/creators.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimization_algorithm_factory.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_factory.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/estimate_propagator.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/estimate_propagator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimization_algorithm_property.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_property.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/factory.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/factory.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/sparse_block_matrix.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/sparse_block_matrix.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/sparse_block_matrix.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/sparse_block_matrix.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/sparse_optimizer.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/sparse_optimizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/hyper_dijkstra.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/hyper_dijkstra.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/parameter_container.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/parameter_container.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimization_algorithm.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimization_algorithm_with_hessian.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_with_hessian.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimization_algorithm_gauss_newton.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_gauss_newton.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimization_algorithm_levenberg.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_levenberg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/optimization_algorithm_dogleg.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/optimization_algorithm_dogleg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/sparse_optimizer_terminate_action.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/sparse_optimizer_terminate_action.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/jacobian_workspace.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/jacobian_workspace.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/robust_kernel.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/robust_kernel.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/robust_kernel_impl.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/robust_kernel_impl.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/robust_kernel_factory.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/robust_kernel_factory.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Header Files/g2o_core_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/core/g2o_core_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] core/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application/Source Files/g2o.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/g2o.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_cli_application/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Source Files/dl_wrapper.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/dl_wrapper.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Source Files/output_helper.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/output_helper.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Source Files/g2o_common.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/g2o_common.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Header Files/dl_wrapper.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/dl_wrapper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Header Files/output_helper.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/output_helper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Header Files/g2o_common.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/g2o_common.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Header Files/g2o_cli_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_cli/g2o_cli_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_cli_library/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application/Source Files/test_simulator2d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/test_simulator2d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator2d_application/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application/Source Files/test_simulator3d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/test_simulator3d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] g2o_simulator3d_application/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/simulator.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/simulator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/pointsensorparameters.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/pointsensorparameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_odometry2d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pose2d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pose2d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pointxy.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pointxy_bearing.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pointxy_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/simutils.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/simutils.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_odometry3d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pose3d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pose3d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pose3d_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pointxyz.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pointxyz_disparity.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_pointxyz_depth.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Source Files/sensor_se3_prior.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/simulator.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/simulator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/pointsensorparameters.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/pointsensorparameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/simulator2d_base.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/simulator2d_base.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_odometry2d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pose2d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pose2d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pointxy.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pointxy_bearing.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pointxy_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/simutils.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/simutils.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/simulator3d_base.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/simulator3d_base.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_odometry3d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pose3d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pose3d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pose3d_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pointxyz.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pointxyz_disparity.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_pointxyz_depth.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/sensor_se3_prior.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/simulator3d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/simulator3d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Header Files/g2o_simulator_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/apps/g2o_simulator/g2o_simulator_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] g2o_simulator_library/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files/types_data.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/types_data.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files/robot_data.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/robot_data.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files/vertex_tag.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/vertex_tag.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files/laser_parameters.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/laser_parameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files/raw_laser.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/raw_laser.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files/robot_laser.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/robot_laser.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Source Files/data_queue.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/data_queue.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files/robot_data.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/robot_data.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files/vertex_tag.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/vertex_tag.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files/laser_parameters.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/laser_parameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files/raw_laser.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/raw_laser.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files/robot_laser.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/robot_laser.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files/data_queue.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/data_queue.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Header Files/g2o_types_data_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/data/g2o_types_data_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_data/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2_pointxy_calib.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/types_slam2d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/types_slam2d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/vertex_point_xy.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/vertex_point_xy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2_pointxy.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/vertex_se2.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/vertex_se2.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2_pointxy_bearing.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2_prior.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_prior.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/parameter_se2_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/parameter_se2_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2_pointxy_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Source Files/edge_se2_xyprior.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_xyprior.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/se2.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/se2.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2_pointxy_bearing.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2_prior.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_prior.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2_pointxy_calib.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/vertex_point_xy.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/vertex_point_xy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2_pointxy.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/vertex_se2.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/vertex_se2.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/parameter_se2_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/parameter_se2_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2_pointxy_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/edge_se2_xyprior.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/edge_se2_xyprior.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Header Files/g2o_types_slam2d_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam2d/g2o_types_slam2d_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam2d/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings/Source Files/test_isometry3d_mappings.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/test_isometry3d_mappings.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_isometry3d_mappings/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian/Source Files/test_mat2quat_jacobian.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/test_mat2quat_jacobian.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_mat2quat_jacobian/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian/Source Files/test_slam3d_jacobian.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/test_slam3d_jacobian.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_slam3d_jacobian/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/dquat2mat.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/dquat2mat.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/isometry3d_mappings.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/isometry3d_mappings.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/isometry3d_gradients.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/isometry3d_gradients.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/vertex_se3.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/vertex_se3.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/parameter_se3_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/parameter_se3_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/edge_se3.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/edge_se3_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/vertex_pointxyz.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/vertex_pointxyz.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/parameter_camera.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/parameter_camera.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/parameter_stereo_camera.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/parameter_stereo_camera.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/edge_se3_pointxyz.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_pointxyz.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/edge_se3_pointxyz_disparity.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_pointxyz_disparity.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/edge_se3_pointxyz_depth.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_pointxyz_depth.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/edge_se3_prior.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_prior.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Source Files/types_slam3d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/types_slam3d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/dquat2mat.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/dquat2mat.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/isometry3d_mappings.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/isometry3d_mappings.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/isometry3d_gradients.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/isometry3d_gradients.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/vertex_se3.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/vertex_se3.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/parameter_se3_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/parameter_se3_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/edge_se3.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/edge_se3_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/vertex_pointxyz.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/vertex_pointxyz.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/parameter_camera.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/parameter_camera.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/parameter_stereo_camera.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/parameter_stereo_camera.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/edge_se3_pointxyz.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_pointxyz.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/edge_se3_pointxyz_disparity.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_pointxyz_disparity.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/edge_se3_pointxyz_depth.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_pointxyz_depth.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/edge_se3_prior.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/edge_se3_prior.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/se3quat.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/se3quat.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/se3_ops.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/se3_ops.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/se3_ops.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/se3_ops.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Header Files/types_slam3d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/slam3d/types_slam3d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_slam3d/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Source Files/types_sba.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sba/types_sba.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Source Files/types_six_dof_expmap.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sba/types_six_dof_expmap.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Header Files/types_sba.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sba/types_sba.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Header Files/types_six_dof_expmap.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sba/types_six_dof_expmap.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Header Files/g2o_types_sba_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sba/g2o_types_sba_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sba/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/Source Files/types_seven_dof_expmap.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sim3/types_seven_dof_expmap.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/Header Files/types_seven_dof_expmap.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sim3/types_seven_dof_expmap.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sim3/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/Source Files/types_icp.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/icp/types_icp.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/Header Files/types_icp.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/icp/types_icp.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/Header Files/g2o_types_icp_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/icp/g2o_types_icp_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_icp/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Source Files/edge_se2_sensor_calib.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/edge_se2_sensor_calib.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Source Files/vertex_odom_differential_params.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/vertex_odom_differential_params.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Source Files/edge_se2_odom_differential_calib.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/edge_se2_odom_differential_calib.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Source Files/odometry_measurement.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/odometry_measurement.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Source Files/types_sclam2d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/types_sclam2d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Header Files/edge_se2_sensor_calib.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/edge_se2_sensor_calib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Header Files/vertex_odom_differential_params.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/vertex_odom_differential_params.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Header Files/edge_se2_odom_differential_calib.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/edge_se2_odom_differential_calib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Header Files/odometry_measurement.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/odometry_measurement.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Header Files/types_sclam2d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/types_sclam2d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Header Files/g2o_types_sclam2d_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/types/sclam2d/g2o_types_sclam2d_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] types_sclam2d/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/Source Files/solver_pcg.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/pcg/solver_pcg.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/Header Files/linear_solver_pcg.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/pcg/linear_solver_pcg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/Header Files/linear_solver_pcg.hpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/pcg/linear_solver_pcg.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_pcg/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/Source Files/solver_dense.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/dense/solver_dense.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/Header Files/linear_solver_dense.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/dense/linear_solver_dense.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_dense/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Source Files/slam2d_linear.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Source Files/solver_slam2d_linear.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Header Files/solver_slam2d_linear.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Header Files/g2o_slam2d_linear_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/slam2d_linear/g2o_slam2d_linear_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_slam2d_linear/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/Source Files/structure_only.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/structure_only/structure_only.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/Header Files/structure_only_solver.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/structure_only/structure_only_solver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_structure_only/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/Source Files/csparse_helper.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/csparse/csparse_helper.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/Header Files/csparse_helper.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/csparse/csparse_helper.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/Header Files/g2o_csparse_extension_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] csparse_extension/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/Source Files/solver_csparse.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/csparse/solver_csparse.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/Header Files/linear_solver_csparse.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/csparse/linear_solver_csparse.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/Header Files/g2o_csparse_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/solvers/csparse/g2o_csparse_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] solver_csparse/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit/Source Files/circle_fit.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/data_fitting/circle_fit.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] circle_fit/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit/Source Files/curve_fit.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/data_fitting/curve_fit.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] curve_fit/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d/Source Files/tutorial_slam2d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/tutorial_slam2d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tutorial_slam2d/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files/edge_se2_pointxy.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/edge_se2_pointxy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files/edge_se2.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/edge_se2.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files/vertex_se2.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/vertex_se2.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files/vertex_point_xy.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/vertex_point_xy.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files/parameter_se2_offset.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/parameter_se2_offset.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files/types_tutorial_slam2d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/types_tutorial_slam2d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Source Files/simulator.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/simulator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/se2.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/se2.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/vertex_point_xy.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/vertex_point_xy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/edge_se2_pointxy.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/edge_se2_pointxy.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/edge_se2.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/edge_se2.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/rand.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/rand.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/vertex_se2.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/vertex_se2.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/parameter_se2_offset.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/parameter_se2_offset.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/types_tutorial_slam2d.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/types_tutorial_slam2d.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/simulator.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/simulator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Header Files/g2o_tutorial_slam2d_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/tutorial_slam2d/g2o_tutorial_slam2d_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] tutorial_slam2d_library/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere/Source Files/create_sphere.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/sphere/create_sphere.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] create_sphere/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo/Source Files/gicp_demo.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/icp/gicp_demo.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_demo/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo/Source Files/gicp_sba_demo.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/icp/gicp_sba_demo.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] gicp_sba_demo/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo/Source Files/sba_demo.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/sba/sba_demo.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sba_demo/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example/Source Files/bal_example.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/bal/bal_example.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bal_example/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Source Files/gm2dl_io.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Source Files/sclam_helpers.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Source Files/edge_se2_pure_calib.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Source Files/closed_form_calibration.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Header Files/gm2dl_io.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Header Files/sclam_helpers.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Header Files/motion_information.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/motion_information.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Header Files/edge_se2_pure_calib.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Header Files/closed_form_calibration.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Header Files/g2o_calibration_odom_laser_api.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/g2o_calibration_odom_laser_api.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] calibration_odom_laser_library/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib/Source Files/sclam_laser_calib.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/sclam_laser_calib.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_laser_calib/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser/Source Files/sclam_odom_laser.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/sclam_odom_laser.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_odom_laser/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration/Source Files/sclam_pure_calibration.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/calibration_odom_laser/sclam_pure_calibration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] sclam_pure_calibration/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d/Source Files/convert_sba_slam3d.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/data_convert/convert_sba_slam3d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_sba_slam3d/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Source Files/slam_context.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Source Files/bison_parser.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Source Files/driver.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Source Files/flex_scanner.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/slam_context.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/bison_parser.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/commands.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/commands.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/driver.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/location.hh</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/location.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/position.hh</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/position.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/scanner.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/scanner.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Header Files/stack.hh</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/parser/stack.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] parser_library/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Source Files/parser_interface.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/interface/parser_interface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Source Files/slam_context_interface.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/interface/slam_context_interface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Header Files/abstract_slam_interface.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/interface/abstract_slam_interface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Header Files/parser_interface.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/interface/parser_interface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Header Files/slam_context_interface.h</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/interactive_slam/slam_parser/interface/slam_context_interface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] interface_library/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize/Source Files/simple_optimize.cpp</name>
+			<type>1</type>
+			<location>/home/falthiel/Downloads/g2o/g2o/examples/simple_optimize/simple_optimize.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] simple_optimize/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
